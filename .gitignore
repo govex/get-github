@@ -1,0 +1,14 @@
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.doc
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.pptx
+*.pdf
+*.key
+.swp
+*.ipynb_checkpoints/
+old_slides/*
