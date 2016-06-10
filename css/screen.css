@@ -1,0 +1,17 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+header,
+footer {
+  width: 100%;
+  padding: 3em;
+  background-color: blue;
+  color: white; }
+
+#container {
+  padding: 3em; }
+
+/*# sourceMappingURL=screen.css.map */
