@@ -116,26 +116,34 @@ class:center,middle
 ![img-full](../images/git13.png)
 
 ---
-class:center
-#Git Workflow
-![img-full](../images/git14.png)
 
----
 class:center,middle
-#Setup Git for this class
+##Github housekeeping: Turning off Watch notifications
+
+![img-full](../images/watch-notifications.png)
 
 ---
 
-class:middle,center
-# First of all, we need to get some keys
+class:center,middle
+##Github housekeeping: notifications in settings
 
-<iframe src="//giphy.com/embed/djd7OPtmcFJII" width="480" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
-##Follow these instructions: 
-###https://help.github.com/articles/generating-ssh-keys/
+![img-full](../images/settings-notifications.png)
 
 ---
-##To Download the code for class (only do this once): 
+
+class:center,middle
+#2-factor auth (because security)
+
+![img-full](../images/two-factor-auth.png)
+
+---
+
+class:center,middle
+![img-full](../images/2-factor-2.png)
+
+---
+
+##To download the code for class: 
 ###`https://github.com/govex/get-github.git`
 
 ---
@@ -155,26 +163,6 @@ class:middle,center
 ##To Push Commit to Github (remote server): `git push`
 ##To Push Commit to Branch: `git push --set-upstream origin branch_name`
 (Don't worry, git will remind you of this)
-
----
-
-#The Workflow for Assignments
-
-```bash
-#get any changes in the repository
-git fetch 
-#checkout the main gh-pages branch
-git checkout gh-pages 
-#pull any commits in the gh-pages branch
-git pull 
-#checkout your own branch on your local machine to do your assignment
-git checkout -b lastName_assignment 
-#write some awesome code and save the text file
-#commit your awesome code to your local branch
-git commit -am 'my awesome code' 
-#push your awesome code to Github
-git push --set-upstream origin lastName_assignment 
-```
 
 ---
 
@@ -200,21 +188,6 @@ git push --set-upstream origin lastName_assignment
 
 ###Write a short introduction to yourself and post it onto the group page using the workflow we just outlined
 
-```bash
-#get any changes in the repository
-git fetch 
-#checkout the main gh-pages branch
-git checkout gh-pages 
-#pull any commits in the gh-pages branch
-git pull 
-#checkout your own branch on your local machine to do your assignment
-git checkout -b lastName_assignment 
-#write some awesome code and save the text file
-#commit your awesome code to your local branch
-git commit -am 'my awesome code' 
-#push your awesome code to Github
-git push --set-upstream origin lastName_assignment 
-```
 
 ###Create a pull request
 
