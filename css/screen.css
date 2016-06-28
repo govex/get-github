@@ -17,12 +17,18 @@ footer {
 
 section {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 30px; }
   section h1, section h2 {
     display: inline-block; }
   section h2 {
     padding-left: 15px;
     font-size: 3.6rem;
     color: #8a8a8e; }
+  section img {
+    float: left;
+    margin-right: 15px; }
 
 /*# sourceMappingURL=screen.css.map */

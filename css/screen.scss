@@ -27,7 +27,9 @@ section {
   
   width:80%;
   margin:0 auto;
-  
+  height:auto;
+  overflow:auto;
+  margin-bottom:30px;
   h1, h2 {
     
     display:inline-block;
@@ -38,5 +40,11 @@ section {
     padding-left:15px;
     font-size:3.6rem;
     color: #8a8a8e;
+  }
+  
+  img {
+    
+    float:left;
+    margin-right:15px;
   }
 }
