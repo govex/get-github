@@ -1,3 +1,5 @@
+@import 'skeleton.css';
+
 html, 
 body {
   
@@ -12,11 +14,37 @@ footer {
   
   width:100%;
   padding:3em;
-  background-color:blue;
+  background-color:#003d4c;
   color:white;
 }
 
 #container {
   
   padding:3em;
+}
+
+section {
+  
+  width:80%;
+  margin:0 auto;
+  height:auto;
+  overflow:auto;
+  margin-bottom:30px;
+  h1, h2 {
+    
+    display:inline-block;
+  }
+  
+  h2 {
+    
+    padding-left:15px;
+    font-size:3.6rem;
+    color: #8a8a8e;
+  }
+  
+  img {
+    
+    float:left;
+    margin-right:15px;
+  }
 }
